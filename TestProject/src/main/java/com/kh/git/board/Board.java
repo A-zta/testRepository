@@ -9,11 +9,10 @@ public class Board {
 		super();
 	}
 
-	public Board(String name, String age, String gender) {
+	public Board(String name, String age) {
 		super();
 		this.name = name;
 		this.age = age;
-		this.gender = gender;
 	}
 
 	public String getName() {
@@ -42,7 +41,7 @@ public class Board {
 
 	@Override
 	public String toString() {
-		return "Board [name=" + name + ", age=" + age + ", gender=" + gender + "]";
+		return "Board [이름 : " + name + "\n나이 : " + age + "\n성별 : " + gender + "]";
 	}
 	
 	
